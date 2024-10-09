@@ -1,8 +1,8 @@
 #ifndef __MY_HEAD__ 
-#define__MY_HEAD__
+#define __MY_HEAD__
 #include <stdarg.h>
 
-//ºê¶¨ÒåÉùÃ÷Çø 
+//å®å®šä¹‰å£°æ˜ŽåŒº 
 int cmp_max(int a,int b);
 int cmp_min(int a,int b);
 int compare(int (*compare_type)(int,int),int num,...);
@@ -13,7 +13,7 @@ int times(int num,...);
  
 #endif
 
-//º¯Êý±àÐ´Çø
+//å‡½æ•°ç¼–å†™åŒº
 int cmp_max(int a,int b){
 	return a>b;
 }
